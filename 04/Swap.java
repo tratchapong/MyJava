@@ -1,9 +1,10 @@
-class Playground {
+class Swap {
     public static int printArray(int[] arr) {
         int n = arr.length;
         for(int i=0; i<n; i++)
             System.out.print(" " + arr[i]);
-            System.out.println("---------");
+        System.out.println();
+        System.out.println("---------");
         return n;
     }
 
@@ -18,7 +19,7 @@ class Playground {
         
         System.out.println("Hello Java");
         printArray(arr);
-        swap(arr, 3, 5);
+        swap(arr, 2, 5);
         printArray(arr);
 
     }
