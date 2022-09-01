@@ -9,7 +9,6 @@ public class CheckAge {
       return true;
     }
 
-
   // refactor above method (same results..)
     public static boolean checkAge2(int age) {
       return (age > 18);

@@ -1,6 +1,6 @@
 public class Money3 {
 
-  static int[] calcBank(int money) {
+  public static int[] calcBank(int money) {
     int[] bank = {1000, 500, 100, 50, 20, 10};
     int[] result = {0,0,0,0,0,0};
     System.out.println("Money = " + money);
@@ -17,6 +17,6 @@ public class Money3 {
     int money1 = 4730;
     calcBank(money1);
     calcBank(9870);
-
   }
 }
+
